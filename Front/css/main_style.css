@@ -1,0 +1,159 @@
+/* IE */
+select::-ms-expand { 
+	display: none;
+}
+.genreSelect {
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 130px;
+  height: 40px;
+  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+  background-color: white;
+  background-size: 20px;
+  padding: 5px 30px 5px 10px;
+  border-radius: 1px;
+  outline: 0 none;
+  margin-right: 2px;
+  float:left
+}
+.genreSelect option {
+background: white;
+color: black;
+padding: 3px 0;
+}
+
+.dateSelect {
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 40px;
+  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+  background-color: white;
+  background-size: 20px;
+  padding: 5px 30px 5px 10px;
+  border-radius: 1px;
+  outline: 0 none;
+  margin-right: 2px;
+  float:left
+}
+.dateSelect option {
+background: white;
+color: black;
+padding: 3px 0;
+}
+
+.searchInput {
+    width: 350px;
+    height: 27px;
+    padding: 5px 30px 5px 10px;    
+    margin-right: 20px;
+    float:left
+}
+
+.searchButton {
+    background: url( "../images/main/box2.PNG" ) center;
+    border: none;
+    border-radius: 1px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.button1 {
+    background: url( "../images/main/button1.PNG" ) no-repeat center;
+    border: none;
+    border-radius: 1px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: -10px;
+    float:right;
+}
+
+.button2 {
+    background: url( "../images/main/button2.PNG" ) no-repeat center;
+    border: none;
+    border-radius: 1px;
+    width: 45px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 22px;
+    float:right;
+}
+
+.select1 {
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 130px;
+  height: 25px;
+  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+  background-color: white;
+  background-size: 20px;
+  padding: 5px 30px 5px 10px;
+  border: none;
+  border-radius: 0px;
+  outline: 0 none;
+  margin-top: 25px;
+  margin-right: 50px;
+  float:right;
+}
+.select1 option {
+background: white;
+color: black;
+padding: 3px 0;
+}
+
+.select2 {
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 25px;
+  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+  background-color: white;
+  background-size: 20px;
+  padding: 5px 30px 5px 10px;
+  border: none;
+  border-radius: 0px;
+  outline: 0 none;
+  margin-top: 25px;
+  margin-right: 10px;
+  float:right;
+}
+.select2 option {
+background: white;
+color: black;
+padding: 3px 0;
+}
+
+.select3 {
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 120px;
+  height: 25px;
+  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+  background-color: white;
+  background-size: 20px;
+  padding: 5px 30px 5px 10px;
+  border: none;
+  border-radius: 0px;
+  outline: 0 none;
+  margin-top: 25px;
+  margin-right: 2px;
+  float:right;
+}
+.select3 option {
+background: white;
+color: black;
+padding: 3px 0;
+}
