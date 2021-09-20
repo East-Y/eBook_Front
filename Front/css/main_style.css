@@ -47,7 +47,15 @@ padding: 3px 0;
 }
 
 .searchInput {
-    width: 350px;
+    width: 440px;
+    height: 27px;
+    padding: 5px 30px 5px 10px;    
+    margin-right: 20px;
+    float:left
+}
+
+.searchInput2 {
+    width: 245px;
     height: 27px;
     padding: 5px 30px 5px 10px;    
     margin-right: 20px;
@@ -61,6 +69,16 @@ padding: 3px 0;
     width: 45px;
     height: 45px;
     cursor: pointer;
+}
+
+.searchButton2 {
+    background: url( "../images/main/box2.PNG" ) center;
+    border: none;
+    border-radius: 1px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: -60px;
 }
 
 .button1 {
@@ -157,3 +175,92 @@ background: white;
 color: black;
 padding: 3px 0;
 }
+
+/* 사이드바 시작 */
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.left-side-bar > ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: lightgray;
+    margin-top: 0px; /* 위치 조절추가 */
+}
+
+body {
+    height: 10000px;
+}
+
+.left-side-bar {
+    margin-top: -2px; /*위치 조절추가*/
+    margin-left: 145px; /*위치 조절추가*/
+    background-color: white;
+    height: 1000px; /* 100%였는데 크기 맞춤 */
+    width: 300px;
+    position: absolute; /*fixed였는데 수정함*/
+    left: -155px;
+    transition: left .3s;
+}
+
+.left-side-bar > .status-ico {
+    text-align: right;
+    padding: 10px;
+}
+
+.left-side-bar > ul li {
+    position: relative;
+}
+
+.left-side-bar ul {
+    font-weight: bold;
+    text-align: left; /* center였는데 left로 수정함 */
+    font-size:15px; /* 추가 */
+    padding: 0;
+    margin-top: -15px; /* 위치 조절추가 */
+}
+
+.left-side-bar ul > li > a {
+    display: block;
+    padding: 10px;
+    white-space: nowrap;
+    
+}
+
+/* .left-side-bar:hover {
+    left: 0;
+    
+} 원래 있던건데 안움직이게 하려고 주석처리함*/
+
+.left-side-bar ul > li:hover ul {
+    display: block;
+}
+
+.left-side-bar ul > li:hover > a {
+    color: white;
+    background-color: black;
+}
+
+/* .left-side-bar > .status-ico > span:last-child {
+    display: none;
+} 원래 있던건데 없는게 나을것 같아서 주석처리함*/
+
+/* .left-side-bar:hover > .status-ico > span:last-child {
+    display: block;
+} 원래 있던건데 없는게 나을것 같아서 주석처리함*/
+
+/* .left-side-bar:hover > .status-ico > span:first-child {
+    display: none;
+} 원래 있던건데 없는게 나을것 같아서 주석처리함*/
+/* 사이드바 끝 */
