@@ -204,7 +204,7 @@ body {
 }
 
 .left-side-bar {
-    margin-top: -2px; /*위치 조절추가*/
+    margin-top: 0px; /*위치 조절추가*/
     margin-left: 145px; /*위치 조절추가*/
     background-color: white;
     height: 1000px; /* 100%였는데 크기 맞춤 */
