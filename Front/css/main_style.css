@@ -200,7 +200,7 @@ a {
 }
 
 body {
-    height: 10000px;
+    height: 100%;
 }
 
 .left-side-bar {
@@ -264,3 +264,123 @@ body {
     display: none;
 } 원래 있던건데 없는게 나을것 같아서 주석처리함*/
 /* 사이드바 끝 */
+
+.footer {
+    display: block;
+    background-color: #353B40;
+    height:600px;
+    width:100%;
+    position:absolute;
+    margin-top: 2000px;
+    float: left;
+}
+
+.footer2 {
+    position:absolute;
+    background-color: #353B40;
+    height: 560px;
+    width: 80%;
+    left: 20%;
+    margin-top: 20px;
+}
+
+.goodread {
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 30%;
+    float: left;
+}
+
+.about {
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+
+.review {
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+
+.privacy {
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+
+.newletters {
+    margin-top: -65px;
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 30%;
+    float: left;
+}
+
+.emailInput {
+    width: 75%;
+    height: 27px;
+    padding: 5px 30px 5px 10px;    
+    margin-right: 20px;
+    float:left;
+    background-color: lightgray;
+}
+
+.emailButton {
+    background: url( "../images/main/box2.PNG" ) center;
+    border: none;
+    margin-top: 1px;
+    border-radius: 1px;
+    margin-left: -60px;
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.news {
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+
+.promotion {
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+
+.help {
+    background-color: #353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+
+.social {
+    margin-top: -150px;
+    background-color:#353B40;
+    font-size: 15px;
+    font-family:Noto Sans CJK KR;
+    height: 150px;
+    width: 30%;
+    float: left;
+}
