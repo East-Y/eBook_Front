@@ -58,12 +58,11 @@ select::-ms-expand {
 }
 
 .searchInput2 {
-    width: 245px;
+    width: 86%;
     height: 27px;
     padding: 5px 30px 5px 10px;
     margin-right: 20px;
     float: left;
-    margin-top: -10px;
 }
 
 .searchButton {
@@ -82,19 +81,18 @@ select::-ms-expand {
     width: 40px;
     height: 40px;
     cursor: pointer;
-    margin-left: -60px;
-    margin-top: -10px;
+    margin-left: -61px;
 }
 
 .button1 {
     background: url("../images/main/button1.PNG") no-repeat center;
     border: none;
     border-radius: 1px;
-    width: 50px;
-    height: 50px;
+    width: 53px;
+    height: 53px;
     cursor: pointer;
     margin-top: 15px;
-    margin-right: -10px;
+    margin-right: 0px;
     float: right;
 }
 
@@ -105,7 +103,8 @@ select::-ms-expand {
     width: 45px;
     height: 30px;
     cursor: pointer;
-    margin-top: 22px;
+    margin-top: 27px;
+    margin-right: -10px;
     float: right;
 }
 
@@ -115,7 +114,7 @@ select::-ms-expand {
     -moz-appearance: none;
     appearance: none;
     width: 130px;
-    height: 25px;
+    height: 30px;
     background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
     background-color: white;
     background-size: 20px;
@@ -124,8 +123,9 @@ select::-ms-expand {
     border-radius: 0px;
     outline: 0 none;
     margin-top: 25px;
-    margin-right: 50px;
+    margin-right: 20px;
     float: right;
+
 }
 
 .select1 option {
@@ -140,7 +140,7 @@ select::-ms-expand {
     -moz-appearance: none;
     appearance: none;
     width: 80px;
-    height: 25px;
+    height: 30px;
     background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
     background-color: white;
     background-size: 20px;
@@ -165,7 +165,7 @@ select::-ms-expand {
     -moz-appearance: none;
     appearance: none;
     width: 120px;
-    height: 25px;
+    height: 30px;
     background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
     background-color: white;
     background-size: 20px;
@@ -208,19 +208,15 @@ a {
     /* 위치 조절추가 */
 }
 
-body {
-    height: 100%;
-}
-
 .left-side-bar {
-    margin-top: -2px;
+    margin-top: -1px;
     /*위치 조절추가*/
-    margin-left: 145px;
+    margin-left: 155px;
     /*위치 조절추가*/
     background-color: white;
-    height: 1000px;
+    height: 23%;
     /* 100%였는데 크기 맞춤 */
-    width: 300px;
+    width: 20%;
     position: absolute;
     /*fixed였는데 수정함*/
     left: -155px;
@@ -281,118 +277,50 @@ body {
 } 원래 있던건데 없는게 나을것 같아서 주석처리함*/
 /* 사이드바 끝 */
 
+/* #353B40 */
 .footer {
     display: block;
     background-color: #353B40;
-    height: 600px;
+    height: 200px;
     width: 100%;
     position: absolute;
-    margin-top: 2000px;
+    margin-top: 2500px;
     float: left;
 }
 
 .footer2 {
     position: absolute;
     background-color: #353B40;
-    height: 560px;
-    width: 80%;
+    height: 180px;
+    width: 60%;
     left: 20%;
-    margin-top: 20px;
-}
-
-.goodread {
-    background-color: #353B40;
-    font-size: 15px;
-    font-family: Noto Sans CJK KR;
-    width: 30%;
-    float: left;
-}
-
-.about {
-    background-color: #353B40;
-    font-size: 15px;
-    font-family: Noto Sans CJK KR;
-    width: 20%;
-    height: 250px;
-    float: left;
-}
-
-.review {
-    background-color: #353B40;
-    font-size: 15px;
-    font-family: Noto Sans CJK KR;
-    width: 20%;
-    height: 250px;
-    float: left;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .privacy {
     background-color: #353B40;
     font-size: 15px;
     font-family: Noto Sans CJK KR;
-    width: 20%;
-    height: 250px;
+    width: 50%;
+    height: 85px;
     float: left;
-}
-
-.newletters {
-    margin-top: -65px;
-    background-color: #353B40;
-    font-size: 15px;
-    font-family: Noto Sans CJK KR;
-    width: 30%;
-    float: left;
-}
-
-.emailInput {
-    width: 75%;
-    height: 27px;
-    padding: 5px 30px 5px 10px;
-    margin-right: 20px;
-    float: left;
-    background-color: lightgray;
-}
-
-.emailButton {
-    background: url("../images/main/box2.PNG") center;
-    border: none;
-    margin-top: 1px;
-    border-radius: 1px;
-    margin-left: -60px;
-    width: 39px;
-    height: 39px;
-    cursor: pointer;
-}
-
-.news {
-    background-color: #353B40;
-    font-size: 15px;
-    font-family: Noto Sans CJK KR;
-    width: 20%;
-    height: 250px;
-    float: left;
-}
-
-.promotion {
-    background-color: #353B40;
-    font-size: 15px;
-    font-family: Noto Sans CJK KR;
-    width: 20%;
-    height: 250px;
-    float: left;
+    text-align: center;
 }
 
 .help {
     background-color: #353B40;
     font-size: 15px;
     font-family: Noto Sans CJK KR;
-    width: 20%;
-    height: 250px;
+    width: 50%;
+    height: 85px;
     float: left;
+    text-align: center;
 }
 
 .social {
-    margin-top: -150px;
+    margin-top: 0px;
     background-color: #353B40;
     font-size: 15px;
     font-family: Noto Sans CJK KR;
@@ -400,3 +328,105 @@ body {
     width: 30%;
     float: left;
 }
+
+/* 책 리스트에 쓰일 css 시작 */
+.firstbookslist {
+    background-color: white;
+    height: 430px;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.restbookslist {
+    background-color: white;
+    height: 430px;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+/* 책 사이즈 */
+.booksize {
+    height: 360px;
+    width: 192px;
+}
+
+/* 책리스트 위치 */
+.firstbook {
+    background-color: white;
+    height: 360px;
+    width: 192px;
+    position: absolute;
+    float: left;
+}
+
+.secondbook {
+    background-color: white;
+    height: 360px;
+    width: 192px;
+    margin-left: 21%;
+    position: absolute;
+    float: left;
+}
+
+.thirdbook {
+    background-color: white;
+    height: 360px;
+    width: 192px;
+    margin-left: 42%;
+    position: absolute;
+    float: left;
+}
+
+.fourthbook {
+    background-color: white;
+    height: 360px;
+    width: 192px;
+    margin-left: 63%;
+    position: absolute;
+    float: left;
+}
+
+/* 별위치 시작 */
+.firstyellowstar {
+    content: url("../images/main/yellowstar.png");
+    margin-left: 27px;
+    margin-top: 0px;
+    height: 23px;
+}
+
+.firstsilverstar {
+    content: url("../images/main/silverstar.png");
+    margin-left: 27px;
+    margin-top: 0px;
+    height: 23px;
+}
+
+.restyellowstars {
+    content: url("../images/main/yellowstar.png");
+    margin-left: 0px;
+    height: 23px;
+}
+
+.restsilverstars {
+    content: url("../images/main/silverstar.png");
+    margin-left: 0px;
+    height: 23px;
+}
+
+/* 별위치 끝 */
+
+.addbutton {
+    content: url("../images/main/addtoread.png");
+    margin-top: 0px;
+    height: 39px;
+}
+
+.added {
+    content: url("../images/main/added.PNG");
+    margin-top: 0px;
+    height: 39px;
+}
+
+/* add버튼들 끝 */
+/* 책리스트 끝 */
