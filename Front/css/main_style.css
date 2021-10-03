@@ -1,179 +1,187 @@
 /* IE */
-select::-ms-expand { 
-	display: none;
+select::-ms-expand {
+    display: none;
 }
+
 .genreSelect {
-  -o-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 130px;
-  height: 40px;
-  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-  background-color: white;
-  background-size: 20px;
-  padding: 5px 30px 5px 10px;
-  border-radius: 1px;
-  outline: 0 none;
-  margin-right: 2px;
-  float:left
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 130px;
+    height: 50px;
+    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+    background-color: white;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    border-radius: 1px;
+    outline: 0 none;
+    margin-right: 2px;
+    float: left
 }
+
 .genreSelect option {
-background: white;
-color: black;
-padding: 3px 0;
+    background: white;
+    color: black;
+    padding: 3px 0;
 }
 
 .dateSelect {
-  -o-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 100px;
-  height: 40px;
-  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-  background-color: white;
-  background-size: 20px;
-  padding: 5px 30px 5px 10px;
-  border-radius: 1px;
-  outline: 0 none;
-  margin-right: 2px;
-  float:left
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 50px;
+    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+    background-color: white;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    border-radius: 1px;
+    outline: 0 none;
+    margin-right: 2px;
+    float: left
 }
+
 .dateSelect option {
-background: white;
-color: black;
-padding: 3px 0;
+    background: white;
+    color: black;
+    padding: 3px 0;
 }
 
 .searchInput {
-    width: 440px;
-    height: 27px;
-    padding: 5px 30px 5px 10px;    
-    margin-right: 20px;
-    float:left
+    width: 350px;
+    height: 36px;
+    padding: 5px 30px 5px 10px;
+    margin-right: 5px;
+    float: left;
 }
 
 .searchInput2 {
     width: 245px;
     height: 27px;
-    padding: 5px 30px 5px 10px;    
+    padding: 5px 30px 5px 10px;
     margin-right: 20px;
-    float:left
+    float: left;
+    margin-top: -10px;
 }
 
 .searchButton {
-    background: url( "../images/main/box2.PNG" ) center;
+    background: url("../images/main/box2.PNG") center;
     border: none;
     border-radius: 1px;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
 .searchButton2 {
-    background: url( "../images/main/box2.PNG" ) center;
+    background: url("../images/main/box2.PNG") center;
     border: none;
     border-radius: 1px;
     width: 40px;
     height: 40px;
     cursor: pointer;
     margin-left: -60px;
+    margin-top: -10px;
 }
 
 .button1 {
-    background: url( "../images/main/button1.PNG" ) no-repeat center;
+    background: url("../images/main/button1.PNG") no-repeat center;
     border: none;
     border-radius: 1px;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     margin-top: 15px;
     margin-right: -10px;
-    float:right;
+    float: right;
 }
 
 .button2 {
-    background: url( "../images/main/button2.PNG" ) no-repeat center;
+    background: url("../images/main/button2.PNG") no-repeat center;
     border: none;
     border-radius: 1px;
     width: 45px;
     height: 30px;
     cursor: pointer;
     margin-top: 22px;
-    float:right;
+    float: right;
 }
 
 .select1 {
-  -o-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 130px;
-  height: 25px;
-  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-  background-color: white;
-  background-size: 20px;
-  padding: 5px 30px 5px 10px;
-  border: none;
-  border-radius: 0px;
-  outline: 0 none;
-  margin-top: 25px;
-  margin-right: 50px;
-  float:right;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 130px;
+    height: 25px;
+    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+    background-color: white;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    border: none;
+    border-radius: 0px;
+    outline: 0 none;
+    margin-top: 25px;
+    margin-right: 50px;
+    float: right;
 }
+
 .select1 option {
-background: white;
-color: black;
-padding: 3px 0;
+    background: white;
+    color: black;
+    padding: 3px 0;
 }
 
 .select2 {
-  -o-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 80px;
-  height: 25px;
-  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-  background-color: white;
-  background-size: 20px;
-  padding: 5px 30px 5px 10px;
-  border: none;
-  border-radius: 0px;
-  outline: 0 none;
-  margin-top: 25px;
-  margin-right: 10px;
-  float:right;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 80px;
+    height: 25px;
+    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+    background-color: white;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    border: none;
+    border-radius: 0px;
+    outline: 0 none;
+    margin-top: 25px;
+    margin-right: 10px;
+    float: right;
 }
+
 .select2 option {
-background: white;
-color: black;
-padding: 3px 0;
+    background: white;
+    color: black;
+    padding: 3px 0;
 }
 
 .select3 {
-  -o-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 120px;
-  height: 25px;
-  background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-  background-color: white;
-  background-size: 20px;
-  padding: 5px 30px 5px 10px;
-  border: none;
-  border-radius: 0px;
-  outline: 0 none;
-  margin-top: 25px;
-  margin-right: 2px;
-  float:right;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 120px;
+    height: 25px;
+    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
+    background-color: white;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    border: none;
+    border-radius: 0px;
+    outline: 0 none;
+    margin-top: 25px;
+    margin-right: 2px;
+    float: right;
 }
+
 .select3 option {
-background: white;
-color: black;
-padding: 3px 0;
+    background: white;
+    color: black;
+    padding: 3px 0;
 }
 
 /* 사이드바 시작 */
@@ -190,13 +198,14 @@ a {
     text-decoration: none;
 }
 
-.left-side-bar > ul ul {
+.left-side-bar>ul ul {
     display: none;
     position: absolute;
     top: 0;
     left: 100%;
     background-color: lightgray;
-    margin-top: 0px; /* 위치 조절추가 */
+    margin-top: 0px;
+    /* 위치 조절추가 */
 }
 
 body {
@@ -204,38 +213,45 @@ body {
 }
 
 .left-side-bar {
-    margin-top: 0px; /*위치 조절추가*/
-    margin-left: 145px; /*위치 조절추가*/
+    margin-top: -2px;
+    /*위치 조절추가*/
+    margin-left: 145px;
+    /*위치 조절추가*/
     background-color: white;
-    height: 1000px; /* 100%였는데 크기 맞춤 */
+    height: 1000px;
+    /* 100%였는데 크기 맞춤 */
     width: 300px;
-    position: absolute; /*fixed였는데 수정함*/
+    position: absolute;
+    /*fixed였는데 수정함*/
     left: -155px;
     transition: left .3s;
 }
 
-.left-side-bar > .status-ico {
+.left-side-bar>.status-ico {
     text-align: right;
     padding: 10px;
 }
 
-.left-side-bar > ul li {
+.left-side-bar>ul li {
     position: relative;
 }
 
 .left-side-bar ul {
     font-weight: bold;
-    text-align: left; /* center였는데 left로 수정함 */
-    font-size:15px; /* 추가 */
+    text-align: left;
+    /* center였는데 left로 수정함 */
+    font-size: 15px;
+    /* 추가 */
     padding: 0;
-    margin-top: -15px; /* 위치 조절추가 */
+    margin-top: -15px;
+    /* 위치 조절추가 */
 }
 
-.left-side-bar ul > li > a {
+.left-side-bar ul>li>a {
     display: block;
     padding: 10px;
     white-space: nowrap;
-    
+
 }
 
 /* .left-side-bar:hover {
@@ -243,11 +259,11 @@ body {
     
 } 원래 있던건데 안움직이게 하려고 주석처리함*/
 
-.left-side-bar ul > li:hover ul {
+.left-side-bar ul>li:hover ul {
     display: block;
 }
 
-.left-side-bar ul > li:hover > a {
+.left-side-bar ul>li:hover>a {
     color: white;
     background-color: black;
 }
@@ -268,15 +284,15 @@ body {
 .footer {
     display: block;
     background-color: #353B40;
-    height:600px;
-    width:100%;
-    position:absolute;
+    height: 600px;
+    width: 100%;
+    position: absolute;
     margin-top: 2000px;
     float: left;
 }
 
 .footer2 {
-    position:absolute;
+    position: absolute;
     background-color: #353B40;
     height: 560px;
     width: 80%;
@@ -287,7 +303,7 @@ body {
 .goodread {
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 30%;
     float: left;
 }
@@ -295,7 +311,7 @@ body {
 .about {
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 20%;
     height: 250px;
     float: left;
@@ -304,7 +320,7 @@ body {
 .review {
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 20%;
     height: 250px;
     float: left;
@@ -313,7 +329,7 @@ body {
 .privacy {
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 20%;
     height: 250px;
     float: left;
@@ -323,7 +339,7 @@ body {
     margin-top: -65px;
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 30%;
     float: left;
 }
@@ -331,14 +347,14 @@ body {
 .emailInput {
     width: 75%;
     height: 27px;
-    padding: 5px 30px 5px 10px;    
+    padding: 5px 30px 5px 10px;
     margin-right: 20px;
-    float:left;
+    float: left;
     background-color: lightgray;
 }
 
 .emailButton {
-    background: url( "../images/main/box2.PNG" ) center;
+    background: url("../images/main/box2.PNG") center;
     border: none;
     margin-top: 1px;
     border-radius: 1px;
@@ -351,7 +367,7 @@ body {
 .news {
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 20%;
     height: 250px;
     float: left;
@@ -360,7 +376,7 @@ body {
 .promotion {
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 20%;
     height: 250px;
     float: left;
@@ -369,7 +385,7 @@ body {
 .help {
     background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     width: 20%;
     height: 250px;
     float: left;
@@ -377,9 +393,9 @@ body {
 
 .social {
     margin-top: -150px;
-    background-color:#353B40;
+    background-color: #353B40;
     font-size: 15px;
-    font-family:Noto Sans CJK KR;
+    font-family: Noto Sans CJK KR;
     height: 150px;
     width: 30%;
     float: left;
