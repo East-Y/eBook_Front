@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eBook</title>
   <link rel="stylesheet" href="css/main_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -30,20 +32,24 @@
       <div style="background-color:lightgrey; width:100%; margin-left: auto; margin-right: auto; float: left;">
         <select name="genres" class="genreSelect">
           <option disabled selected>장르</option>
-          <option value="Art">예술</option>
-          <option value="Biography">인물전기</option>
-          <option value="Business">비즈니스</option>
-          <option value="Chick">여성소설</option>
+          <option>소설</option>
+          <option>외국어</option>
+          <option>인문</option>
+          <option>자기관리</option>
+          <option>경제 / 경영</option>
+          <option>역사 / 문화</option>
+          <option>종교</option>
+          <option>어린이</option>
         </select>
         <select name="date" class="dateSelect">
           <option disabled selected>연도</option>
-          <option value="2021">2021</option>
-          <option value="2020">2020</option>
-          <option value="2019">2019</option>
-          <option value="2018">2018</option>
+          <option>2021</option>
+          <option>2020</option>
+          <option>2019</option>
+          <option>2018</option>
         </select>
         <input name="search" class="searchInput" type="text" placeholder="검색">
-        <button name="searchbutton" class="searchButton" />
+        <button style="border: none; border-radius: 1px; width: 50px; height: 50px; cursor: pointer;"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
       </div>
     </div>
   </div>
@@ -65,8 +71,8 @@
       <!-- 왼쪽에 있는 검색과 사이드바 시작 -->
       <div style="background-color: white; height: 447px; width: 20%; float: left; ">
         <div>
-          <input name="search2" class="searchInput2" type="text" placeholder="검색">
-          <button name="searchbutton2" class="searchButton2" />
+          <input name="search2" class="sidesearchInput" type="text" placeholder="검색">
+          <button style="border: none; border-radius: 1px; width: 40px; height: 40px; cursor: pointer;"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
         </div>
         <div class="left-side-bar" style="z-index:3;">
           <!-- 사이드바 위쪽의 공백을 위한 div 시작 -->
@@ -209,10 +215,8 @@
       <!-- 책 리스트 끝 -->
       <!-- 이전 다음 버튼 시작 -->
       <div style="width: 80%; background-color: white; margin-left: 20%; margin-top: auto; margin-bottom: auto;">
-        <a href="http://www.naver.com" target="_blank"><img src="images/main/previous.PNG"
-            style="float: left;"></a>
-        <a href="http://www.naver.com" target="_blank"><img src="images/main/next.PNG"
-            style="float: right;"></a>
+        <a href="http://www.naver.com" target="_blank"><i class="fa-solid fa-left-long fa-2x" style="float: left;"></i></a>
+        <a href="http://www.naver.com" target="_blank"><i class="fa-solid fa-right-long fa-2x" style="float: right;"></i></a>
       </div>
       <!-- 이전 다음 버튼 끝 -->
     </div>
@@ -239,7 +243,7 @@
 
       <hr style="height: 1px; width: 100%; background-color: lightgray; border: 0;">
       <div style="text-align: center; width: 100%; background-color: #353B40; ">
-        <p style="font-size: 10px; color: gray;">
+        <p style="font-size: 10px; font-family:Noto Sans CJK KR; color: gray;">
           Copyright 2021 ⓒ Bigtree Entertainment Pvt Ltd. All Rights Reserved</p>
       </div>
     </div>

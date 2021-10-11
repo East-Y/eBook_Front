@@ -57,129 +57,11 @@ select::-ms-expand {
     float: left;
 }
 
-.searchInput2 {
-    width: 67%;
+.sidesearchInput {
+    width: 72%;
     height: 27px;
     padding: 5px 30px 5px 10px;
     float: left;
-}
-
-.searchButton {
-    background: url("../images/main/box2.PNG") center;
-    border: none;
-    border-radius: 1px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.searchButton2 {
-    background: url("../images/main/box2.PNG") center;
-    border: none;
-    border-radius: 1px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.button1 {
-    background: url("../images/main/button1.PNG") no-repeat center;
-    border: none;
-    border-radius: 1px;
-    width: 53px;
-    height: 53px;
-    cursor: pointer;
-    margin-top: 15px;
-    margin-right: 0px;
-    float: right;
-}
-
-.button2 {
-    background: url("../images/main/button2.PNG") no-repeat center;
-    border: none;
-    border-radius: 1px;
-    width: 45px;
-    height: 30px;
-    cursor: pointer;
-    margin-top: 27px;
-    margin-right: -10px;
-    float: right;
-}
-
-.select1 {
-    -o-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 130px;
-    height: 30px;
-    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-    background-color: white;
-    background-size: 20px;
-    padding: 5px 30px 5px 10px;
-    border: none;
-    border-radius: 0px;
-    outline: 0 none;
-    margin-top: 25px;
-    margin-right: 20px;
-    float: right;
-
-}
-
-.select1 option {
-    background: white;
-    color: black;
-    padding: 3px 0;
-}
-
-.select2 {
-    -o-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 80px;
-    height: 30px;
-    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-    background-color: white;
-    background-size: 20px;
-    padding: 5px 30px 5px 10px;
-    border: none;
-    border-radius: 0px;
-    outline: 0 none;
-    margin-top: 25px;
-    margin-right: 10px;
-    float: right;
-}
-
-.select2 option {
-    background: white;
-    color: black;
-    padding: 3px 0;
-}
-
-.select3 {
-    -o-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 120px;
-    height: 30px;
-    background: url('../images/main/arrow.jpg') no-repeat 95% 50%;
-    background-color: white;
-    background-size: 20px;
-    padding: 5px 30px 5px 10px;
-    border: none;
-    border-radius: 0px;
-    outline: 0 none;
-    margin-top: 25px;
-    margin-right: 2px;
-    float: right;
-}
-
-.select3 option {
-    background: white;
-    color: black;
-    padding: 3px 0;
 }
 
 body,
@@ -309,7 +191,8 @@ a {
     background-color: #353B40;
     width: 60%;
     margin-left: auto;
-    margin-right: auto;;
+    margin-right: auto;
+    ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
