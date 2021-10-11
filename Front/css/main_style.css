@@ -50,7 +50,7 @@ select::-ms-expand {
 }
 
 .searchInput {
-    width: 350px;
+    width: 50%;
     height: 36px;
     padding: 5px 30px 5px 10px;
     margin-right: 5px;
@@ -281,52 +281,111 @@ a {
 .footer {
     display: block;
     background-color: #353B40;
-    height: 200px;
+    height: 180px;
     width: 100%;
-    position: absolute;
-    margin-top: 2500px;
     float: left;
 }
 
 .footer2 {
     position: absolute;
     background-color: #353B40;
-    height: 180px;
+    height: 120px;
     width: 60%;
-    left: 20%;
-    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .privacy {
     background-color: #353B40;
-    font-size: 15px;
     font-family: Noto Sans CJK KR;
-    width: 50%;
-    height: 85px;
+    width: 100%;
+    height: 18px;
     float: left;
-    text-align: center;
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.privacytitle {
+    float: left;
+    width: 87px;
+    color: white;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.privacycontentfirst {
+    float: left;
+    color: gray;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.privacycontentrest {
+    float: left;
+    color: gray;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.privacycontentrest::before {
+    content: "|";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 8px;
 }
 
 .help {
     background-color: #353B40;
-    font-size: 15px;
     font-family: Noto Sans CJK KR;
-    width: 50%;
-    height: 85px;
+    width: 100%;
+    height: 18px;
     float: left;
-    text-align: center;
+    display: block;
+    font-size: 15px;
+    line-height: 18px;    
 }
 
-.social {
-    margin-top: 0px;
-    background-color: #353B40;
-    font-size: 15px;
-    font-family: Noto Sans CJK KR;
-    height: 150px;
-    width: 30%;
+.helptitle {
     float: left;
+    width: 87px;
+    color: white;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.helpcontentfirst {
+    float: left;
+    color: gray;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.helpcontentrest {
+    float: left;
+    color: gray;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.helpcontentrest::before {
+    content: "|";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 8px;
 }
 
 /* 책 리스트에 쓰일 css 시작 */
@@ -427,6 +486,31 @@ a {
     margin-top: 0px;
     height: 39px;
 }
+/* 
+.restbookslist > .star {
+    margin-left: 0px;
+    height: 23px;
+} */
+
+/* .book > .star:nth-child(1) {
+    content: url("../images/main/yellowstar.png");
+    margin-left: 27px;
+    height: 23px;
+}
+
+.book > .star.silver {
+    content: url("../images/main/silverstar.png");
+    margin-left: 0px;
+    height: 23px;
+}
+
+.book > .star.yellow {
+    content: url("../images/main/yellowstar.png");
+    margin-left: 0px;
+    height: 23px;
+} */
+
+
 
 /* add버튼들 끝 */
 /* 책리스트 끝 */
