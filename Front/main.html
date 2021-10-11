@@ -22,12 +22,12 @@
 
   <!-- 책 검색이 있는 회색 박스 시작 -->
   <div style="background-color:lightgrey; height:200px; width:100%; display: flex;">
-      <div style="background-color:lightgrey; height:150px; width:50%; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
-        <h1
-          style="font-size:20px; font-family:Noto Sans CJK KR; color:black; line-height:45px; float:left; width:100%;">
-          책 검색</h1>
-          
-          <div style="background-color:lightgrey; width:100%; margin-left: auto; margin-right: auto; float: left;">
+    <div
+      style="background-color:lightgrey; height:150px; width:50%; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
+      <h1 style="font-size:20px; font-family:Noto Sans CJK KR; color:black; line-height:45px; float:left; width:100%;">
+        책 검색</h1>
+
+      <div style="background-color:lightgrey; width:100%; margin-left: auto; margin-right: auto; float: left;">
         <select name="genres" class="genreSelect">
           <option disabled selected>장르</option>
           <option value="Art">예술</option>
@@ -42,401 +42,189 @@
           <option value="2019">2019</option>
           <option value="2018">2018</option>
         </select>
-          <input name="search" class="searchInput" type="text" placeholder="검색">
-          <button name="searchbutton" class="searchButton" />
-        </div>
+        <input name="search" class="searchInput" type="text" placeholder="검색">
+        <button name="searchbutton" class="searchButton" />
       </div>
     </div>
+  </div>
   </div>
   <!-- Explore Books와 검색이 있는 회색 박스 끝 -->
 
   <!-- 가장 큰 몸통의 시작 -->
-  <div style="background-color: white; height:2500px; width:100%; float: left;">
+  <div style="background-color: white; width:100%;">
     <!-- 몸통의 좌우 크기를 80%로 줄인 실질적인 몸통의 시작 -->
-    <div style="background-color: white; width:80%; left: 10%; position:absolute; float: left;">
-      <!-- 둘러보기와 리스트의 표기 설정들이 담긴 상자 시작 -->
-      <div style="background-color: white; height:80px; width:100%;">
+    <div
+      style="background-color: white; width:80%; margin-left: 10%; margin-right: 10%; display: flex; flex-wrap: wrap;">
+      <!-- 둘러보기가 담긴 상자 시작 -->
+      <div style="background-color: white; height:80px; width:100%; float: left;">
         <h1
           style="font-size:20px; font-weight:700; font-family:Noto Sans CJK KR; color:black; line-height:55px; float:left; margin-top: 10px;">
           둘러보기</h1>
-        <!-- 버튼과 select들을 오른쪽부터 배치함 시작 -->
-        <button name="button1" class="button1"></button>
-        <button name="button2" class="button2"></button>
-        <select name="select1" class="select1">
-          <option disabled selected>월</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
-        <select name="select2" class="select2">
-          <option disabled selected>연도</option>
-          <option value="2021">2021</option>
-          <option value="2020">2020</option>
-          <option value="2019">2019</option>
-          <option value="2018">2018</option>
-        </select>
-        <!-- 보류
-          <select name="select3" class="select3">
-          <option disabled selected>책들</option>
-          <option value="20books">20권</option>
-          <option value="30books">30권</option>
-          <option value="40books">40권</option>
-          <option value="50books">50권</option>
-        </select> -->
-
-        <!-- 버튼과 select들을 오른쪽부터 배치함 끝 -->
       </div>
-      <!-- 둘러보기 리스트의 표기 설정들이 담긴 상자 끝 -->
-
-      <div style="background-color: white; width: 20%; float: left;">
-        <!-- 왼쪽에 있는 검색 기능 시작 -->
+      <!-- 둘러보기가 담긴 상자 끝 -->
+      <!-- 왼쪽에 있는 검색과 사이드바 시작 -->
+      <div style="background-color: white; height: 447px; width: 20%; float: left; ">
         <div>
           <input name="search2" class="searchInput2" type="text" placeholder="검색">
           <button name="searchbutton2" class="searchButton2" />
         </div>
-        <!-- 왼쪽에 있는 검색 기능 끝 -->
-
-        <!-- 왼쪽 사이드바가 있는 div 시작 -->
-        <!-- 왼쪽 사이드바 끝 -->
         <div class="left-side-bar" style="z-index:3;">
           <!-- 사이드바 위쪽의 공백을 위한 div 시작 -->
           <div class="status-ico" style="visibility: hidden;">
           </div>
           <!-- 사이드바 위쪽의 공백을 위한 div 끝 -->
           <ul>
-            <li>
-              <a href="#">장르</a>
-              <ul>
-                <li><a href="#">예술</a></li>
-                <li><a href="#">인물전기</a></li>
-                <li><a href="#">비즈니스</a></li>
-                <li><a href="#">여성소설</a></li>
-                <li><a href="#">어린이용</a></li>
-                <li><a href="#">종교</a></li>
-                <li><a href="#">고전</a></li>
-                <li><a href="#">코미디</a></li>
-                <li><a href="#">만화</a></li>
-                <li><a href="#">현대문학</a></li>
-                <li><a href="#">요리책</a></li>
-                <li><a href="#">범죄소설</a></li>
-                <li><a href="#">전자책</a></li>
-                <li><a href="#">공상소설</a></li>
-                <li><a href="#">소설</a></li>
-                <li><a href="#">동성애</a></li>
-                <li><a href="#">그래픽 노블</a></li>
-                <li><a href="#">역사소설</a></li>
-                <li><a href="#">역사</a></li>
-                <li><a href="#">공포</a></li>
-                <li><a href="#">만화</a></li>
-                <li><a href="#">회고록</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">저자</a>
-              <ul>
-                <li><a href="#">히가시노 게이고</a></li>
-                <li><a href="#">아서 코난 도일</a></li>
-                <li><a href="#">아리스가와 아리스</a></li>
-                <li><a href="#">에도가와 란포</a></li>
-                <li><a href="#">아가사 크리스티</a></li>
-                <li><a href="#">엘러리 퀸</a></li>
-                <li><a href="#">윌리엄 아이리시</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">많은 사람들이 읽은 도서</a>
-              <ul>
-                <li><a href="#">그리고 아무도 없었다</a></li>
-                <li><a href="#">Y의 비극</a></li>
-                <li><a href="#">환상의 여인</a></li>
-                <li><a href="#">용의자 X의 헌신</a></li>
-                <li><a href="#">매스커레이드 호텔</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">인기 있는 도서</a>
-              <ul>
-                <li><a href="#">그리고 아무도 없었다</a></li>
-                <li><a href="#">Y의 비극</a></li>
-                <li><a href="#">환상의 여인</a></li>
-                <li><a href="#">용의자 X의 헌신</a></li>
-                <li><a href="#">매스커레이드 호텔</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">올해의 책</a>
-            </li>
-            <li>
-              <a href="#">노벨상 수상자</a>
-            </li>
-            <li>
-              <a href="#">신간</a>
-            </li>
-            <li>
-              <a href="#">수상작</a>
-            </li>
-            <li>
-              <a href="#">경품</a>
-            </li>
-            <li>
-              <a href="#">무작위 책</a>
-            </li>
-            <li>
-              <a href="#">추천도서</a>
-            </li>
-            <li>
-              <a href="#">인기 출판사 도서</a>
-            </li>
-            <li>
-              <a href="#">협찬 도서</a>
-            </li>
-            <li>
-              <a href="#">더보기</a>
-            </li>
+            <li><a href="#">소설</a></li>
+            <li><a href="#">외국어</a></li>
+            <li><a href="#">인문</a></li>
+            <li><a href="#">자기관리</a></li>
+            <li><a href="#">경제 / 경영</a></li>
+            <li><a href="#">역사 / 문화</a></li>
+            <li><a href="#">종교</a></li>
+            <li><a href="#">어린이</a></li>
+            <li><a href="#">추천도서</a></li>
+            <li><a href="#">무작위 도서</a></li>
           </ul>
-          <!-- 왼쪽 사이드바 끝 -->
         </div>
-        <!-- 왼쪽 사이드바가 있는 div 끝 -->
       </div>
-
-      <!-- 책 리스트와 이전 다음 버튼이 있는 영역 시작 -->
-      <div style="background-color: white; width: 80%; margin-left: 20%;">
+      <!-- 왼쪽에 있는 검색과 사이드바 끝 -->
+      <!-- 책 리스트 시작 -->
+      <div style="background-color: white; width: 80%; float: right; display: flex; flex-wrap: wrap;">
         <!-- 책리스트 첫줄 시작 -->
         <div class="firstbookslist">
           <!-- 1번책 -->
           <div class="firstbook">
-            <img src="images/main/book1.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restyellowstars">
-            <img class="restyellowstars">
-            <img class="restyellowstars">
-            <img class="addbutton">
+            <a href="#"><img src="images/main/book1.jpg" class="booksize"></a>
+            <a href="#">백조와 박쥐</a>
           </div>
           <!-- 2번책 -->
-          <div class="secondbook">
-            <img src="images/main/book2.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restyellowstars">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book2.jpg" class="booksize"></a>
+            <a href="#">요리코를 위해</a>
           </div>
           <!-- 3번책 -->
-          <div class="thirdbook">
-            <img src="images/main/book3.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book3.jpg" class="booksize"></a>
+            <a href="#">버터</a>
           </div>
           <!-- 4번책 -->
-          <div class="fourthbook">
-            <img src="images/main/book4.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book4.jpg" class="booksize"></a>
+            <a href="#">밤의 여행자들</a>
           </div>
         </div>
         <!-- 첫줄끝 두번째줄 시작 -->
         <div class="restbookslist">
           <!-- 5번책 -->
           <div class="firstbook">
-            <img src="images/main/book5.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+            <a href="#"><img src="images/main/book5.jpg" class="booksize"></a>
+            <a href="#">조선의 형사들</a>
           </div>
           <!-- 6번책 -->
-          <div class="book secondbook">
-            <img src="images/main/book6.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book6.jpg" class="booksize"></a>
+            <a href="#">달콤한 숨결</a>
           </div>
           <!-- 7번책 -->
-          <div class="thirdbook">
-            <img src="images/main/book7.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book7.jpg" class="booksize"></a>
+            <a href="#">학의 자리</a>
           </div>
           <!-- 8번책 -->
-          <div class="fourthbook">
-            <img src="images/main/book8.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book8.jpg" class="booksize"></a>
+            <a href="#">낯선 자의 일기</a>
           </div>
         </div>
         <!-- 두번째줄끝 세번째줄 시작 -->
         <div class="restbookslist">
           <!-- 9번책 -->
           <div class="firstbook">
-            <img src="images/main/book9.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+            <a href="#"><img src="images/main/book9.jpg" class="booksize"></a>
+            <a href="#">루팡의 딸2</a>
           </div>
           <!-- 10번책 -->
-          <div class="secondbook">
-            <img src="images/main/book10.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book10.jpg" class="booksize"></a>
+            <a href="#">기담룸</a>
           </div>
           <!-- 11번책 -->
-          <div class="thirdbook">
-            <img src="images/main/book11.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book11.jpg" class="booksize"></a>
+            <a href="#">백조세탁소</a>
           </div>
           <!-- 12번책 -->
-          <div class="fourthbook">
-            <img src="images/main/book12.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book12.jpg" class="booksize"></a>
+            <a href="#">형사 부스지마<br> 최후의 사건</a>
           </div>
         </div>
         <!-- 세번째줄끝 네번째줄 시작 -->
         <div class="restbookslist">
           <!-- 13번책 -->
           <div class="firstbook">
-            <img src="images/main/book13.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+            <a href="#"><img src="images/main/book13.jpg" class="booksize"></a>
+            <a href="#">마술 피리</a>
           </div>
           <!-- 14번책 -->
-          <div class="secondbook">
-            <img src="images/main/book14.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book14.jpg" class="booksize"></a>
+            <a href="#">용의자 X의 헌신</a>
           </div>
           <!-- 15번책 -->
-          <div class="thirdbook">
-            <img src="images/main/book15.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book15.jpg" class="booksize"></a>
+            <a href="#">그리고 아무도 없었다</a>
           </div>
           <!-- 16번책 -->
-          <div class="fourthbook">
-            <img src="images/main/book16.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book16.jpg" class="booksize"></a>
+            <a href="#">살인범 협박시 주의사항</a>
           </div>
         </div>
         <!-- 네번째줄끝 다섯번째줄 시작 -->
         <div class="restbookslist">
           <!-- 17번책 -->
           <div class="firstbook">
-            <img src="images/main/book17.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+            <a href="#"><img src="images/main/book17.jpg" class="booksize"></a>
+            <a href="#">스키마와라시</a>
           </div>
           <!-- 18번책 -->
-          <div class="secondbook">
-            <img src="images/main/book18.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book18.jpg" class="booksize"></a>
+            <a href="#">1의 비극</a>
           </div>
           <!-- 19번책 -->
-          <div class="thirdbook">
-            <img src="images/main/book19.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book19.jpg" class="booksize"></a>
+            <a href="#">마지막 소년</a>
           </div>
           <!-- 20번책 -->
-          <div class="fourthbook">
-            <img src="images/main/book20.jpg" class="booksize">
-            <img class="firstyellowstar">
-            <img class="restyellowstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="restsilverstars">
-            <img class="addbutton">
+          <div class="restbook">
+            <a href="#"><img src="images/main/book20.jpg" class="booksize"></a>
+            <a href="#">돌이킬 수 없는 약속</a>
           </div>
         </div>
-        <!-- 책 리스트 아래의 이전 다음 버튼 시작 -->
-        <div style="height: 150px; width: 95%; margin-left: 5%; background-color: white;">
-          <a href="http://www.naver.com" target="_blank"><img src="images/main/previous.PNG"
-              style="margin-top: 40px; margin-left: 0px; float: left;"></a>
-          <a href="http://www.naver.com" target="_blank"><img src="images/main/next.PNG"
-              style="margin-top: 40px; float: right;"></a>
-        </div>
-        <!-- 책 리스트 아래의 이전 다음 버튼 끝 -->
       </div>
-      <!-- 책 리스트와 이전 다음 버튼이 있는 영역 끝 -->
+      <!-- 책 리스트 끝 -->
+      <!-- 이전 다음 버튼 시작 -->
+      <div style="width: 80%; background-color: white; margin-left: 20%; margin-top: auto; margin-bottom: auto;">
+        <a href="http://www.naver.com" target="_blank"><img src="images/main/previous.PNG"
+            style="float: left;"></a>
+        <a href="http://www.naver.com" target="_blank"><img src="images/main/next.PNG"
+            style="float: right;"></a>
+      </div>
+      <!-- 이전 다음 버튼 끝 -->
     </div>
     <!-- 몸통의 좌우 크기를 80%로 줄인 실질적인 몸통의 끝 -->
   </div>
   <!-- 가장 큰 몸통 끝 -->
 
-  <!-- Footer의 시작 (살릴것과 지울것 정리하고 사이즈도 변경할 예정) -->
+  <!-- Footer의 시작 -->
   <footer class="footer">
 
     <div class="footer2">
-
+      <hr style="height: 1px; width: 100%; background-color: lightgray; border: 0;">
       <div class="privacy">
         <p class="privacytitle">개인 정보</p>
         <a href="http://www.naver.com" target="_blank" class="privacycontentfirst">이용 약관</a>
@@ -449,13 +237,14 @@
         <a href="http://www.google.co.kr" target="_blank" class="privacycontentrest">피드백</a>
       </div>
 
-      <hr style="margin-top: 0px; height: 1px; width: 100%; background-color: lightgray; border: 0;">
-      <div style="text-align: center; width: 100%; background-color: #353B40; height: 30px; vertical-align:middle;">
-        <p style="font-size: 12px; color: gray;">
-          Copyright 2016 ⓒ Bigtree Entertainment Pvt Ltd. All Rights Reserved</p>
+      <hr style="height: 1px; width: 100%; background-color: lightgray; border: 0;">
+      <div style="text-align: center; width: 100%; background-color: #353B40; ">
+        <p style="font-size: 10px; color: gray;">
+          Copyright 2021 ⓒ Bigtree Entertainment Pvt Ltd. All Rights Reserved</p>
       </div>
     </div>
   </footer>
+  <!-- Footer의 끝 -->
 
 </body>
 
