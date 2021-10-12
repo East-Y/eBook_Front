@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eBook</title>
-  <link rel="stylesheet" href="css/main_style.css">
+  <link rel="stylesheet" href="css/bookdetail_style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -98,133 +98,58 @@
         </div>
       </div>
       <!-- 왼쪽에 있는 검색과 사이드바 끝 -->
-      <!-- 책 리스트 시작 -->
-      <div style="background-color: white; width: 80%; float: right; display: flex; flex-wrap: wrap;">
-        <!-- 책리스트 첫줄 시작 -->
-        <div class="firstbookslist">
-          <!-- 1번책 -->
-          <div class="firstbook">
-            <a href="http://127.0.0.1:5500/front/bookdetail.html"><img src="images/main/book1.jpg" class="booksize"></a>
-            <a href="#">빨강머리 앤</a>
-          </div>
-          <!-- 2번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book2.jpg" class="booksize"></a>
-            <a href="#">요리코를 위해</a>
-          </div>
-          <!-- 3번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book3.jpg" class="booksize"></a>
-            <a href="#">버터</a>
-          </div>
-          <!-- 4번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book4.jpg" class="booksize"></a>
-            <a href="#">밤의 여행자들</a>
-          </div>
-        </div>
-        <!-- 첫줄끝 두번째줄 시작 -->
-        <div class="restbookslist">
-          <!-- 5번책 -->
-          <div class="firstbook">
-            <a href="#"><img src="images/main/book5.jpg" class="booksize"></a>
-            <a href="#">조선의 형사들</a>
-          </div>
-          <!-- 6번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book6.jpg" class="booksize"></a>
-            <a href="#">달콤한 숨결</a>
-          </div>
-          <!-- 7번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book7.jpg" class="booksize"></a>
-            <a href="#">학의 자리</a>
-          </div>
-          <!-- 8번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book8.jpg" class="booksize"></a>
-            <a href="#">낯선 자의 일기</a>
+      <!-- 책 상세 페이지 내용 시작 -->
+      <div style="width: 78%; display: flex; flex-wrap: wrap; flex-direction: column; margin-left: 2%;">
+        <hr style="height: 1px; width: 100%; background-color: black; border: 0;">
+        <div style="width: 100%; display: flex; background-color: white; justify-content: space-between;">
+          <img src="images/bookdetail/book_detatil_1.jpg" class="bookdetailsize">
+          <div style="width: 70%;">
+            <p class="bookdetailtitle">(빨강머리 앤 100주년 공식 기념판) 빨강머리 앤</p>
+            <hr style="height: 1px; width: 90%; background-color: lightgray; border: 0;">
+            <div style="width: 100%; display: flex; flex-direction: column;">
+              <div class="bookdetailtext">
+                <p class="detailtitle">저자</p>
+                <p class="detailcontent">루시 모드 몽고메리</p>
+              </div>
+              <div class="bookdetailtext">
+                <p class="detailtitle">출판사</p>
+                <p class="detailcontent">세종서적</p>
+              </div>
+              <div class="bookdetailtext">
+                <p class="detailtitle">ISBN</p>
+                <p class="detailcontent">9788984072879</p>
+              </div>
+              <div class="bookdetailtext">
+                <p class="detailtitle">지원기기</p>
+                <p class="detailcontent">PC, 안드로이드, 태블릿, 아이폰, 아이패드</p>
+              </div>
+              <div class="bookdetailtext">
+                <p class="detailtitle">링크주소</p>
+                <p class="detaillink"><a href="https://elib.seoul.go.kr/ebooks/detail.do?no=1210319000015"
+                    target="_blank">https://elib.seoul.go.kr/ebooks/detail.do?no=1210319000015</a></p>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- 두번째줄끝 세번째줄 시작 -->
-        <div class="restbookslist">
-          <!-- 9번책 -->
-          <div class="firstbook">
-            <a href="#"><img src="images/main/book9.jpg" class="booksize"></a>
-            <a href="#">루팡의 딸2</a>
-          </div>
-          <!-- 10번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book10.jpg" class="booksize"></a>
-            <a href="#">기담룸</a>
-          </div>
-          <!-- 11번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book11.jpg" class="booksize"></a>
-            <a href="#">백조세탁소</a>
-          </div>
-          <!-- 12번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book12.jpg" class="booksize"></a>
-            <a href="#">형사 부스지마<br> 최후의 사건</a>
-          </div>
-        </div>
-        <!-- 세번째줄끝 네번째줄 시작 -->
-        <div class="restbookslist">
-          <!-- 13번책 -->
-          <div class="firstbook">
-            <a href="#"><img src="images/main/book13.jpg" class="booksize"></a>
-            <a href="#">마술 피리</a>
-          </div>
-          <!-- 14번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book14.jpg" class="booksize"></a>
-            <a href="#">용의자 X의 헌신</a>
-          </div>
-          <!-- 15번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book15.jpg" class="booksize"></a>
-            <a href="#">그리고 아무도 없었다</a>
-          </div>
-          <!-- 16번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book16.jpg" class="booksize"></a>
-            <a href="#">살인범 협박시 주의사항</a>
-          </div>
-        </div>
-        <!-- 네번째줄끝 다섯번째줄 시작 -->
-        <div class="restbookslist">
-          <!-- 17번책 -->
-          <div class="firstbook">
-            <a href="#"><img src="images/main/book17.jpg" class="booksize"></a>
-            <a href="#">스키마와라시</a>
-          </div>
-          <!-- 18번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book18.jpg" class="booksize"></a>
-            <a href="#">1의 비극</a>
-          </div>
-          <!-- 19번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book19.jpg" class="booksize"></a>
-            <a href="#">마지막 소년</a>
-          </div>
-          <!-- 20번책 -->
-          <div class="restbook">
-            <a href="#"><img src="images/main/book20.jpg" class="booksize"></a>
-            <a href="#">돌이킬 수 없는 약속</a>
-          </div>
+        <hr style="height: 1px; width: 100%; background-color: black; border: 0;">
+        <div style="width: 100%; background-color: white">
+          <p class="detailinfotitle">책 소개</p>
+          <p class="detailinfo">주근깨 빼빼마른 빨강머리 소녀 앤!</p>
+          <br>
+          <p class="detailinfo">주근깨 빨강머리 소녀 앤의 이야기를 그린 세계적인 베스트셀러 『빨강머리 앤』. 캐나다 ""빨강머리 앤 협회""의 100주년 공식 기념판이다. 1908년에
+            발표된 이 소설은 출간 100년이 지난 지금까지도 여전히 많은 사랑을 받고 있다. 주근깨투성이에 말라깽이고 늘 어처구니없는 실수를 저지르지만, 그 누구보다 사랑스러운 소녀 앤을 만날 수 있다.
+          </p>
+          <br>
+          <p class="detailinfo">캐나다 프린스에드워드 섬에 있는 에이번리 마을의 초록 지붕 집에 사는 매슈와 마릴라 커스버트 남매. 매슈의 농사일을 도울 남자아이가 필요하다고 생각한 마릴라는
+            고아원에 아이를 부탁하지만, 말이 잘못 전해져 여자아이 앤 셜리가 오게 된다. 여자아이를 키울 생각이 없었던 마릴라는 앤을 돌려보내려 하지만, 결국 마음을 바꿔 앤을 키우기로 한다.
+          </p>
+          <br>
+          <p class="detailinfo">낭만파이자 공상가인 앤은 온갖 사물에 이름을 붙여주고, 이웃에 사는 다이애나와 둘도 없는 친구가 된다. 학교에 간 앤은 자신의 머리를 ""홍당무""라고 놀리는
+            길버트와 다투기도 하면서 여러 가지 일을 겪게 되는데.... 이 작품은 초록 지붕 집에서 살게 된 소녀 앤이 어엿한 숙녀로 자라 에이번리 학교의 교사가 되기까지의 이야기를 그리고 있다.
+          </p>
         </div>
       </div>
-      <!-- 책 리스트 끝 -->
-      <!-- 이전 다음 버튼 시작 -->
-      <div style="width: 80%; background-color: white; margin-left: 20%; margin-top: auto; margin-bottom: auto;">
-        <a href="http://www.naver.com" target="_blank"><i class="fa-solid fa-left-long fa-2x"
-            style="float: left;"></i></a>
-        <a href="http://www.naver.com" target="_blank"><i class="fa-solid fa-right-long fa-2x"
-            style="float: right;"></i></a>
-      </div>
-      <!-- 이전 다음 버튼 끝 -->
+      <!-- 책 상세 페이지 내용 끝 -->
     </div>
     <!-- 몸통의 좌우 크기를 80%로 줄인 실질적인 몸통의 끝 -->
   </div>

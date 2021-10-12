@@ -110,73 +110,66 @@ a {
 
 /* 사이드바 끝 */
 
-/* 책 리스트 시작 */
-.firstbookslist {
+/* 상세페이지 시작 */
+
+.bookdetailsize {
+    height: 420px;
+    width: 297px;
+}
+
+.bookdetailtitle {
     background-color: white;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.restbookslist {
-    background-color: white;
-    width: 100%;
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-/* 책 사이즈 */
-.booksize {
-    height: 300px;
-    width: 160px;
-}
-
-/* 책리스트 위치 */
-.firstbook {
-    background-color: white;
-    height: 360px;
-    width: 160px;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.firstbook>a {
     font-family: Noto Sans CJK KR;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
 }
 
-.restbook {
+.bookdetailtext {
+    width: 90%;
     background-color: white;
-    height: 360px;
-    width: 160px;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.restbook>a {
     font-family: Noto Sans CJK KR;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
     font-size: 15px;
-    text-align: center;
+    float: left;
+    margin-left: 10%;
 }
 
-/* 책리스트 끝 */
+.detailtitle {
+    float: left;
+    width: 100px;
+    color: black;
+    font-size: inherit;
+    font-weight: bold;
+    text-align: left;
+}
+
+.detailcontent {
+    text-align: left;
+    color: black;
+    font-size: inherit;
+}
+
+.detaillink {
+    text-align: left;
+    color: black;
+    font-size: inherit;
+}
+
+.detailinfotitle {
+    margin-bottom: 25px;
+    font-family: Noto Sans CJK KR;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.detailinfo {
+    font-family: Noto Sans CJK KR;
+    font-size: 15px;
+    line-height: 24px;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+/* 상세페이지 끝 */
 
 /* #353B40 */
 .footer {
