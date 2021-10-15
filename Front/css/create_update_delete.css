@@ -1,0 +1,26 @@
+/* IE */
+select::-ms-expand {
+    display: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.categoryname {
+    width: 20%;
+    height: 36px;
+    padding: 5px 30px 5px 10px;
+    margin-right: 5px;
+    float: left;
+}
+
+.categorydelete {
+    width: 20%;
+    height: 36px;
+    padding: 5px 30px 5px 10px;
+    margin-right: 5px;
+    float: left;
+}
